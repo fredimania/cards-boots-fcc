@@ -1,0 +1,26 @@
+.App{
+  background-color: aqua;
+  /* aqui le damos el 100 de alto */
+  height: 100vh;
+/* ingrese a la pagina css.gradient.io para obtener el codigo de gradiente */
+     background: rgb(0,24,36);
+     background: linear-gradient(
+      163deg,
+       rgba(0,24,36,1) 13%,
+        rgba(9,9,121,1) 43%,
+         rgba(0,212,255,1) 81%);
+  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Centra verticalmente */
+}
+
+.centered-text {
+  color: white;
+  font-weight: bold;
+}
+
+
+}
